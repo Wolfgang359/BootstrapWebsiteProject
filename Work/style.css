@@ -1,0 +1,44 @@
+
+
+/*Background image*/
+body {
+    background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content, .media {
+    background-image: url("https://webgradients.com/public/webgradients_png/002%20Night%20Fade.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-light {
+    background-color: rgb(212, 0, 255) !important;
+}
+
+.active {
+    background-color:  rgb(129, 0, 155);
+}
+
+.content {
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: -25%;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.media {
+    margin: 5%;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.media img {
+    height: 15%;
+    width: 15%;
+}
